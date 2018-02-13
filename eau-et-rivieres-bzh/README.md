@@ -35,13 +35,6 @@ Une fois l'installation effectuée, vous pouvez vérifier qu'elle s'est bien eff
 # Serveur de développement
 Lien du site du projet : http://hyblab.polytech.univ-nantes.fr/eau-et-rivieres-bzh/
 
-Pour accéder au serveur de développement :
-* Aller sur le lien suivant : https://hyblab.polytech.univ-nantes.fr/ssh/.
-* Saisir les identifiants suivants :
-    * hyblab login: *eau-et-rivieres-bzh*
-    * eau-et-rivieres-bzh@hyblab's password : *erbhyblab*
-* Vous êtes maintenant sur le serveur de développement.
-
 Pour mettre à jour le dépôt git du serveur :
 * Arrêter le processus avec `pm2 stop EauEtRivieres`
 * Aller dans le dépôt avec `cd HyblabDDJ2018`, puis mettre à jour avec `git pull`, puis sortir du dépôt avec `cd ..`.
